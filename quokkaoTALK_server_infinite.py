@@ -1,4 +1,4 @@
-# quokkaoTALK_server.py
+# quokkaoTALK_server_infinite.py
 # 텍스트를 인터넷으로 주고 받는 프로그램 (서버)
 
 import socket
@@ -17,7 +17,7 @@ def receive_message(sock):
 
 # 서버 소켓 설정 
 HOST = 'localhost' # 서버의 IP 주소 또는 호스트명 
-PORT = 5000 # 사용 가능한 포트 번호 
+PORT = 8888 # 사용 가능한 포트 번호 
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # TCP/IP 소켓 생성 (AF_INET : IPv4, SOCK_STREAM : TCP)
 server_socket.bind((HOST,PORT)) # 주어진 HOST와 PORT에 소켓 바인딩 

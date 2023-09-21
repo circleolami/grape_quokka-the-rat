@@ -16,7 +16,7 @@ def receive_message(sock):
 
 # 클라이언트 소켓 설정 
 HOST = 'localhost' # 서버의 IP 주소나 호스트명 사용 
-PORT = 5000 # 서버와 동일한 포트 번호 사용 
+PORT = 8888 # 서버와 동일한 포트 번호 사용 
 
 print("quokkaoTALK client start...")
 
